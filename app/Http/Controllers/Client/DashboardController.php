@@ -11,4 +11,9 @@ class DashboardController extends Controller
     {
         return view('client.dashboard');
     }
+
+    public function address()
+    {
+        return view('client.home-address');
+    }
 }

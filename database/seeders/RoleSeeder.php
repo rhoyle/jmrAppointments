@@ -17,7 +17,7 @@ class RoleSeeder extends Seeder
 
         $role = [
             [
-                'name'  =>  'User',
+                'name'  =>  'Client',
                 'created_at'        => Carbon::now(),
                 'updated_at'        => Carbon::now(),
             ],
